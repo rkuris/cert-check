@@ -16,8 +16,12 @@ http://www.theguardian.com/technology/2015/nov/12/apple-user-anger-mac-apps-brea
 
 ## Configuring
 
-Right now, everything is hardcoded. You probably want to change the
-list of sites it checks and how many days before it warns you.
+~~Right now, everything is hardcoded. You probably want to change the
+list of sites it checks and how many days before it warns you.~~
+
+Good news!  cert-check now supports command line arguments.  The
+-notify argument reports any site below that threshold in days.
+All other arguments are considered sites to be checked.
 
 ## Running
 
