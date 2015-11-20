@@ -27,7 +27,7 @@ All other arguments are considered sites to be checked.
 
 Easy to run if the go system is installed:
 ```sh
-go run cert-check.go
+go run check-cert.go okta.okta.com:443
 ```
 
 You can also precompile it for a specific architecture and run cert-check
